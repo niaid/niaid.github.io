@@ -1,4 +1,5 @@
-# National Institute of Allergy and Infectious Diseases (NIAID)
+# [National Institute of Allergy and Infectious Diseases (NIAID)](https://www.niaid.nih.gov)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/niaid/niaid.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
