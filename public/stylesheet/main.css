@@ -7,20 +7,62 @@ color: #fff;
 text-align: center;
 background-color: #159957;
 background-image: linear-gradient(120deg, #155799, #159957);
-padding: 5rem 6rem;
+padding: 3rem 4rem;
 }
 .tagline{
 margin-bottom: 2rem;
 font-weight: normal;
 opacity: 0.7;
 }
-
+.logo-header{
+	width:80px; 
+	height:50px;
+}
+@media (max-width: 962px) {
+  
+  .title-header{
+  	font-size: 24px;
+  }
+  .tagline{
+  	font-size: 20px;
+  }
+  .logo-header{
+	width:60px; 
+	height:40px;
+}
+}
+@media (max-width: 647px) {
+  
+  .title-header{
+  	font-size: 18px;
+  }
+  .tagline{
+  	font-size: 14px;
+  }
+  .logo-header{
+	width:40px; 
+	height:20px;
+}
+}
+@media (max-width: 530px) {
+  
+  .title-header{
+  	font-size: 14px;
+  	text-align: center;
+  }
+  .tagline{
+  	font-size: 10px;
+  }
+}
 /* Code */
 
 @media (min-width: 768px) {
   .code-page-content {
   margin-bottom: 20px;
  }
+  .main-header{
+  	padding: 20px;
+  }
 }
 .space-header{
 	padding-top: 300px;
@@ -53,7 +95,9 @@ opacity: 0.7;
 }
 
 .codes-download {
-	background-color: #00a6d2;
+	background-color: #159957;
+/*background-image: linear-gradient(120deg, #155799, #159957);*/
+	/*background-color: #00a6d2;*/
 	color: #fff;
 	text-transform: uppercase;
 	/*font-weight: 700;*/
@@ -64,7 +108,8 @@ opacity: 0.7;
 }
 
 .codes-download:hover {
-	background-color: #205493;
+	background-image: linear-gradient(120deg, #155799, #159957);
+	/*background-color: #205493;*/
 	color: #fff;
 	text-transform: uppercase;
 	/*font-weight: 700;*/
@@ -93,4 +138,73 @@ opacity: 0.7;
 .codes-bottom-row {
 	padding-top: 15px;
 	/*border-top: 1px solid red;*/
+}
+
+
+/* Footer */
+
+@media (max-width: 780px) {
+  .alignment-center-footer {
+   text-align: center;
+  }
+}
+
+.main-niaid-footer {
+	background-color: #000;
+	margin-top: 0px;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-links-heading {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-links-heading-bio {
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer-links {
+	font-size: 14px;
+	color: #5b616b;
+	line-height: 1.8;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	transition:.2s linear;
+}
+
+.footer-nih-tagline {
+	font-size: 14px;
+	color: #5b616b;
+}
+
+.footer-address {
+	font-size: 14px;
+	color: #5b616b;
+}
+
+.footer-columns-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sidebar-column-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-hr {
+  border-top: 1px solid #5b616b;
 }
