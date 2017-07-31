@@ -14,10 +14,14 @@ margin-bottom: 2rem;
 font-weight: normal;
 opacity: 0.7;
 }
-.logo-header{
-	width:80px; 
-	height:50px;
+
+img.img-logo-header{
+  content: url(../images/white-logo-footer/nih-logo-footer.png); 
+  width:80px; 
+  height:50px;
 }
+
+
 @media (max-width: 962px) {
   
   .title-header{
@@ -26,7 +30,7 @@ opacity: 0.7;
   .tagline{
   	font-size: 20px;
   }
-  .logo-header{
+  img.img-logo-header{
 	width:60px; 
 	height:40px;
 }
@@ -39,7 +43,7 @@ opacity: 0.7;
   .tagline{
   	font-size: 14px;
   }
-  .logo-header{
+  img.img-logo-header{
 	width:40px; 
 	height:20px;
 }
@@ -241,4 +245,21 @@ opacity: 0.7;
 
 .footer-hr {
   border-top: 1px solid #5b616b;
+}
+
+img.img-hhs-footer{
+  content: url(../images/white-logo-footer/hhs-logo-footer.png); 
+  width: 30px;
+  height: 36px;
+}
+
+img.img-nih-footer{
+  content: url(../images/white-logo-footer/nih-logo-footer.png); 
+  width: 48px;
+  height: 30px;
+}
+img.img-usa-footer{
+  content: url(../images/white-logo-footer/usagov-logo-footer.png); 
+  width: 100px;
+  height: 30.4px;
 }
