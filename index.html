@@ -12,13 +12,13 @@
 		    <link href="public/stylesheet/main.css" rel="stylesheet">
 
       <!-- Custom javascript file -->
-        <script src="public/js/main.js"></script>
+        <!-- <script src="public/js/main.js"></script> -->
 		  </head>
 	<body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="">
 	
 		<div class="main-header">
-			<h2 class="title-header"><img alt="NIH Logo" class="img-logo-header">   National Institute of Allergy and Infectious Diseases (NIAID)</h2>
+			<h2 class="title-header"><img class="img-logo-header" src="public/images/white-logo-footer/nih-logo-footer.png" width="80" height="50" alt="NIH Logo">   National Institute of Allergy and Infectious Diseases (NIAID)</h2>
 			<h3 class="tagline"><i class="fa fa-map-marker"></i> Bethesda, Maryland, USA</h3> 
 		</div>
 	</nav>
@@ -38,7 +38,7 @@
                <div class="codes-bottom-row">
                  <div class="col-xs-12">
                      <p><a href="https://niaid.github.io/dcas/" class="btn btn-primary codes-download btn-block hvr-icon-forward" target="blank" role="button"><i class="fa fa-github left"></i>&nbsp;&nbsp;GitHub Pages</a></p>
-                 </div> <!-- /col-xs-12 -->            
+                 </div> <!-- /col-xs-12  -->            
                </div><!-- /codes-bottom-row-->
             </div> <!-- /codes-bottom -->
           </div><!-- /thumbnail bcbb-codes -->
@@ -135,8 +135,11 @@
           <!-- </div>/thumbnail bcbb-codes -->
         <!-- </div>/col-xs-12 col-sm-6 col-md-3 -->
 
+
  
       </div><!-- /row code-page-content -->
+              <p>If you have any questions and comments contact us:</p><p id="demo" ></p>
+
       </div><!-- /container space-header -->
 
       <div>
@@ -236,6 +239,13 @@
        </div>
       </footer>
       </div>
+
+<script language="JavaScript">
+var username = "scienceapps";
+var hostname = "niaid.nih.gov";
+var linktext = username + "@" + hostname ;
+document.getElementById('demo').innerHTML = ("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
 
 	</body>
 </html>
