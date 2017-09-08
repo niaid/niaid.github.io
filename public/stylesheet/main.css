@@ -1,11 +1,14 @@
 
 
 /*Header*/
-
+.navbar-inverse {
+    background-color: #20558A;/*fff*/
+    border-color: #f1f1f1;
+}
 .main-header{
 color: #fff;
 text-align: center;
-background-color: #005295; /* 65646A , 123B56 , 005295*/
+background-color: #20558A; /* 65646A , 123B56 , 005295*/
 /*background-image: linear-gradient(120deg, #155799, #159957);*/
 padding: 3rem 4rem;
 }
@@ -38,11 +41,11 @@ opacity: 0.7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img.img-logo-header{
+/*img.img-logo-header{
   content: url(../images/white-logo-footer/nih-logo-footer.png); 
   width: 80px; 
   height: 50px;
-}
+}*/
 
 @media (max-width: 962px) {
   
@@ -211,7 +214,7 @@ img.img-logo-header{
 }
 
 .main-niaid-footer {
-	background-color: #000;
+	background-color: #20558A;
 	margin-top: 0px;
 	padding-bottom: 100px;
 	padding-top: 60px;
@@ -231,27 +234,29 @@ img.img-logo-header{
 
 .footer-links {
 	font-size: 14px;
-	color: #5b616b;
+	color: #fff;/*5b616b*/
 	line-height: 1.8;
+  opacity: 0.7;
 }
 
 .footer-links:hover,
 .footer-links:focus {
 	font-size: 14px;
-	color: #fff;
+	color: #f1f1f1;/*fff*/
+  opacity: 1;
 	text-decoration: none;
-	background-color: transparent;
+	/*background-color: transparent;*/
 	transition:.2s linear;
 }
 
 .footer-nih-tagline {
 	font-size: 14px;
-	color: #5b616b;
+	color: #fff;/*5b616b*/
 }
 
 .footer-address {
 	font-size: 14px;
-	color: #5b616b;
+	color: #fff;/*5b616b*/
 }
 
 .footer-columns-separator {
@@ -267,7 +272,7 @@ img.img-logo-header{
 }
 
 .footer-hr {
-  border-top: 1px solid #5b616b;
+  border-top: 1px solid #fff;/*5b616b*/
 }
 
 img.img-hhs-footer{
