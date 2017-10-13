@@ -1,23 +1,84 @@
+/* Header and Navbar
+------------------------- */
 
-
-/*Header*/
-.navbar-inverse {
-    background-color: #20558A;/*fff*/
-    border-color: #f1f1f1;
-}
-.main-header{
-color: #fff;
-text-align: center;
-background-color: #20558A; /* 65646A , 123B56 , 005295*/
-/*background-image: linear-gradient(120deg, #155799, #159957);*/
-padding: 3rem 4rem;
-}
-.tagline{
-margin-bottom: 2rem;
-font-weight: normal;
-opacity: 0.7;
+.nephele-topbar .btn {
+  font-size: 12px;
+  color: #939393;
 }
 
+.nephele-topbar .btn-link:hover,
+.nephele-topbar .btn-link:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: 10;
+}
+
+.site-topbar {
+  border: 0;
+  border-bottom: 1px dotted #d6d7d9;
+}
+
+.site-topbar .btn {
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding-left: 0px;
+  padding-right: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.site-topbar .btn-link:hover,
+.site-topbar .btn-link:focus {
+  text-decoration: none;
+  background-color: transparent;
+  outline: 0;
+  transition: all 0.2s;
+}
+
+.navbar {
+  position: relative;
+  min-height: 110px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: #20558A ; 
+}
+
+
+.nephele-navhr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px dotted #939393;
+}
+
+.nephele-logotype {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;  
+
+}
+
+.nephele-tagline {
+  font-size: 12px;
+  opacity: 0.7;
+  color: #fff;
+}
+
+.nbp-links {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.nbp-links:hover,
+.nbp-links:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
 .topBtn {
   display: none;
   position: fixed;
@@ -41,46 +102,41 @@ opacity: 0.7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*img.img-logo-header{
-  content: url(../images/white-logo-footer/nih-logo-footer.png); 
-  width: 80px; 
-  height: 50px;
-}*/
+/* ------------------------- */
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
 
-@media (max-width: 962px) {
+  .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    padding-top: 29px;
+   }
+
+}
+
+@media (max-width: 780px) {
+  .alingment-center-footer {
+   text-align: center;
+  }
+
+}
+
+@media (max-width: 625px) {
   
-  .title-header{
-  	font-size: 24px;
-  }
-  .tagline{
-  	font-size: 20px;
-  }
- img.img-logo-header{
-	width:60px; 
-	height:40px;
+  .navbar {
+  position: relative;
+  min-height: 130px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: #20558A ; 
 }
 }
-@media (max-width: 647px) {
-  
-  .title-header{
-  	font-size: 18px;
-  }
-  .tagline{
-  	font-size: 14px;
-  }
-  img.img-logo-header{
-	width:40px; 
-	height:25px;
-}
-}
-@media (max-width: 530px) {
-  
-  .title-header{
-  	font-size: 14px;
-  	text-align: center;
-  }
-  .tagline{
-  	font-size: 10px;
+
+@media (max-width: 405px) {
+  .nephele-logotype{
+    font-size: 16px;
   }
 }
 
