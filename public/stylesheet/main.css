@@ -119,6 +119,25 @@
   color: #ffffff !important;
 }
 
+/* Retired Application Card Styles for Better Contrast
+------------------------- */
+.bcbb-codes[style*="opacity: 0.6"] {
+  background-color: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+.bcbb-codes[style*="opacity: 0.6"] .codes-title {
+  color: #495057 !important;
+}
+
+.bcbb-codes[style*="opacity: 0.6"] .codes-desc {
+  color: #495057 !important;
+}
+
+.bcbb-codes[style*="opacity: 0.6"] hr {
+  border-color: #dee2e6 !important;
+}
+
 /* ------------------------- */
 /* RESPONSIVE CSS
 -------------------------------------------------- */
