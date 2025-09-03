@@ -102,6 +102,23 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Retired Application Button Styles
+------------------------- */
+.btn[disabled]:hover,
+.btn[disabled]:focus {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+  color: #ffffff !important;
+  cursor: not-allowed;
+  opacity: 0.8 !important;
+}
+
+.btn[disabled]:active {
+  background-color: #5a6268 !important;
+  border-color: #545b62 !important;
+  color: #ffffff !important;
+}
+
 /* ------------------------- */
 /* RESPONSIVE CSS
 -------------------------------------------------- */
