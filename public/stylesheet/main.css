@@ -138,6 +138,43 @@
   border-color: #dee2e6 !important;
 }
 
+/* Retired Applications Section Styling */
+.retired-applications-section {
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.retired-applications-section .bcbb-codes {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  transition: opacity 0.3s ease;
+}
+
+.retired-applications-section .bcbb-codes:hover {
+  opacity: 0.8 !important;
+}
+
+.retired-applications-section .codes-title {
+  color: #6c757d;
+}
+
+.retired-applications-section .codes-desc {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.retired-applications-section .btn[disabled] {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.retired-applications-section .btn[disabled]:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
 /* ------------------------- */
 /* RESPONSIVE CSS
 -------------------------------------------------- */
